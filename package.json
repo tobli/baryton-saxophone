@@ -1,0 +1,20 @@
+{
+  "name": "seleniumserver-install",
+  "version": "2.45.0",
+  "description": "Install and launch Selenium Server for Mac, Linux and Windows.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "install": "node install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "selenium server",
+    "webdriver"
+  ],
+  "author": "Tobias Lidskog <tobias@lidskog.se>",
+  "license": "MIT",
+  "dependencies": {
+    "download": "^4.1.2"
+  }
+}
