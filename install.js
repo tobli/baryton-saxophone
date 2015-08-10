@@ -7,4 +7,8 @@ new Download()
     .get('http://selenium-release.storage.googleapis.com/2.46/selenium-server-standalone-2.46.0.jar')
     .dest('vendor')
     .use(downloadStatus())
-    .run();
+    .run(function(err) {
+      if (err) {
+        throw err;
+      }
+    });
