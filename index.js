@@ -1,10 +1,11 @@
 'use strict';
 
 var path = require('path'),
-  version = require('./package').version;
+  pkg = require('./package');
 
-module.exports.version = version;
-
-module.exports.jarPath = function() {
-  return path.resolve(__dirname, 'vendor', 'selenium-server-standalone.jar');
+module.exports.seleniumServer = {
+  version: pkg.version,
+  jarPath: function() {
+    return path.resolve(__dirname, 'vendor', 'selenium-server-standalone.jar');
+  }
 };
