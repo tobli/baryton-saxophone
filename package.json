@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "selenium server",
+    "selenium",
+    "seleniumserver",
     "webdriver"
   ],
   "author": "Tobias Lidskog <tobias@lidskog.se>",
