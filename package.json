@@ -1,5 +1,5 @@
 {
-  "name": "@tobli/seleniumserver-install",
+  "name": "baryton-saxophone",
   "version": "2.47.1",
   "description": "Install and launch Selenium Server for Mac, Linux and Windows.",
   "main": "index.js",
