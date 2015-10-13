@@ -18,5 +18,9 @@
   "dependencies": {
     "download": "^4.1.2",
     "download-status": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobli/baryton-saxophone.git"
   }
 }
