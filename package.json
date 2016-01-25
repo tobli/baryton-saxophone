@@ -16,7 +16,7 @@
   "author": "Tobias Lidskog <tobias@lidskog.se>",
   "license": "MIT",
   "dependencies": {
-    "download": "^4.2.1",
+    "download": "^4.4.3",
     "download-status": "^2.2.1"
   },
   "repository": {
