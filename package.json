@@ -1,6 +1,6 @@
 {
   "name": "baryton-saxophone",
-  "version": "2.49.1",
+  "version": "2.50.1",
   "description": "Install and launch Selenium Server for Mac, Linux and Windows.",
   "main": "index.js",
   "scripts": {
