@@ -1,12 +1,12 @@
 {
   "name": "baryton-saxophone",
-  "version": "2.53.0",
+  "version": "3.0.1",
   "description": "Install and launch Selenium Server for Mac, Linux and Windows.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "install": "node install.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "keywords": [
     "selenium",
